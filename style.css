@@ -1,0 +1,184 @@
+
+
+
+#brand{
+	color:#f4511e;
+	font-weight:bold;
+	font-family:"Andale Mono", monospace;
+	
+}
+
+
+
+
+
+.jumbotron{
+	
+	background: url("pics/b4.jpg") center center no-repeat;
+	background-attachment:  fixed;
+	background-size:cover;
+	min-height:600px;
+	
+	
+	font-family:"Andale Mono", monospace;
+	
+      font-weight:bold;
+      color: #f4511e;
+      padding: 100px 25px;
+	  margin-bottom:60px;
+  }
+  
+h3{
+	font-family:"Andale Mono", monospace;
+	text-align:center;
+      font-weight:bold;
+      color: #f4511e;
+}
+
+div.img {
+    border: 1px solid #ccc;
+	
+}
+
+
+
+div.img:hover {
+    border: 2px solid #f4511e;
+	
+}
+
+div.img img {
+    width: 100%;
+    height: 215px;
+	
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-weight:bold;
+	color: #f4511e;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+.star{
+	color: #f4511e;
+	font-weight:bold;
+	text-align:center;
+	font-size:18px;
+}
+ .slider{
+	 color:white;
+ } 
+ 
+
+
+hr{
+	box-shadow: 0px 1px orange;
+}
+
+
+.img-responsive{
+	height:140px;
+	width:270px;
+	margin:0 auto;
+}
+	
+
+h2{
+	color:#f4511e;
+	font-weight:bold;
+	font-family:"Andale Mono", monospace;
+	text-align:center;
+}
+
+p{
+	color:black;
+	font-weight:bold;
+	font-family:"Andale Mono", monospace;
+	text-align:center;
+
+}
+
+#phone{
+	text-align:center;
+	font-size:34px;
+}
+
+#mail{
+	text-align:center;
+	font-size:34px;
+}
+#map{
+	text-align:center;
+	font-size:34px;
+}
+
+#comment{
+	text-align:center;
+	font-size:34px;
+}
+
+
+.fa{
+	font-weight:bold;
+	font-size:48px;
+	color:#f4511e;
+	padding:15px;
+}
+.form-group{
+	font-weight:bold;
+	border: 2px 3px black;
+}
+
+.bottom{
+	
+	background:black;
+	min-height:60px;
+	font-weight:bold;
+	
+	text-align:center;
+	color:#f4511e;
+	}
+	
+.caption{
+	color:white;
+}
+
+#magazine1{
+	border:2px solid black;
+	height:400px;
+	
+	width:300px;
+	
+}
+
+#magazine2{
+	border: 2px solid black;
+	height:400px;
+	
+	width:300px;
+	
+}
+

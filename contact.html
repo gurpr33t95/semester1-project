@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+		contact us
+		</title>
+		
+			 <meta charset="utf-8">
+			  <meta name="viewport" content="width=device-width, initial-scale=1">
+			  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+			
+			 <link rel="stylesheet" href="style.css"/>
+	</head>
+	
+	<body>
+	
+	
+
+	
+		<div class="navbar-static-top navbar-inverse" >
+			<div class="container">
+			<div class="navbar-brand" id="brand">
+			CAR WARS
+			</div>
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			menu
+			</button>
+			
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right" >
+					<li> <a href="index.html">HOME </a> </li>
+					
+					
+					<li> <a href="newcars.html">NEW CARS</a> </li>
+					<li> <a href="gallery.html">GALLERY </a> </li>
+					<li> <a href="contact.html">CONTACT US</a> </li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row" >
+			<h2> CONTACT US </h2>
+			<hr/>
+			<br/>
+		</div>
+		</div>
+			<div class="container" id="phone">
+			<div class="row">
+				<div class="col-md-12" >
+				<i class="fa fa-phone-square" onclick=popup2();></i>
+				<br/>
+				<p> +353 1515151515 </p>
+				</div>
+			</div>
+			</div>
+			
+			<br/>
+			<br/>
+			
+			<div class="container" id="mail">
+			<div class="row">
+				<div class="col-md-12">
+				<i class="fa fa-envelope"></i>
+				<br/>
+				<p> info@carwars.ie </p>
+				</div>
+			</div>
+			</div>
+			
+			<br/>
+			<br/>
+			
+			<div class="container" id="map" >
+			<div class="row" >
+				<div class="col-md-12">
+				<i class="fa fa-map-marker"></i>
+				<br/>
+				<p> Mayor street, IFSC ,Dublin 1
+				</p>
+				</div>
+			</div>
+			</div>
+			<br/>
+			<br/>
+			
+			
+			<div class="container" id="comment">
+			<div class="row">
+			<div class="col-md-12">
+			<i class="fa fa-commenting"> </i>
+			</div>
+			<br/>
+			<br/>
+        <div class="col-md-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-md-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          
+		  <button class="btn btn-default pull-right" type="submit" onclick=popup1();>
+			Send
+		</button>
+		  </div>
+		 </div>
+		</div>
+		
+		<div class="bottom">
+			<div class="container">
+			<footer> &copy; CAR-WARS 2016 <br/> <a href="#home">back to top </a> </footer>
+			</div>
+		</div>	
+		
+		
+			<script src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+		
+		
+		
+		<script> 
+		$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+}); 
+function popup1(){
+			alert("your comment submitted successfully");}
+			
+function popup2(){
+			alert ("do you want to make a call to +353 1515151515");}
+</script>
+
+		
+		
+		
+	</body>
+</html>
